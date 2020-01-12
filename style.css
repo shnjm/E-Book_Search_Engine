@@ -1,0 +1,68 @@
+body {
+    padding: 30px 30px;
+    background: #b4b4b466;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 70px;
+    width: 50%;
+    background: #ffffff;
+}
+
+.scard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.card_norm {
+    padding: 2px 16px;
+    background: #ffffff;
+}
+
+.card_norm:hover {
+    text-decoration-line: underline;
+}
+
+.card_grey {
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 2px 16px;
+    background: #ffffff;
+}
+
+.card_grey:hover {
+    background-color: grey;
+    text-decoration-line: underline;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#norm_src {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 40px;
+    width: 50%;
+    background: #ffffff;
+    position: fixed;
+    left: 38px;
+    top: 10px;
+}
+
+#query {
+    border-radius: 5px;
+    height: 35px;
+    width: 75%;
+}
+
+#button {
+    border-radius: 5px;
+    height: 30px;
+}
